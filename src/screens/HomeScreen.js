@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import CitySearch from '../components/CitySearch'
 import WeatherInfo from '../components/WeatherInfo'
 
-const API_KEY = '852255f8d2774ccb2f1c642b378804b5'
+const API_KEY = 'YOUR_API_KEY'
 
 
 const HomeScreen = () => {

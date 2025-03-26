@@ -23,7 +23,7 @@ const CitySearch = ({onCitySelect}) => {
         try {
             const response = await fetch(`https://wft-geo-db.p.rapidapi.com/v1/geo/cities?namePrefix=${text}&limit=10`, {
                 headers: {
-                    'X-RapidAPI-Key': '7025e15491msh34645b71e678b0ep16d5d8jsn670053a91cdd',
+                    'X-RapidAPI-Key': 'YOUR_API_KEY',
                     'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
                 }
             })
